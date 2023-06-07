@@ -55,15 +55,15 @@ class SinglyLinkedList {
 
   // 삭제 로직
   remove(value) {
-    let prevNode = this.head;
+    let prevNode = this.head; // 삭제할 노드의 이전 노드를 찾기 위해, prevNode라는 변수를 생성하고 head를 할당한다.
     while (prevNode.next.value !== value) {
-      prevNode = prevNode.next;
+      // prevNode의 next의 값이 찾고자 하는 값과 같을 때까지 반복한다.
+      prevNode = prevNode.next; // prevNode의 next를 prevNode에 할당한다.
     }
 
     if (prevNode.next !== null) {
-      prevNode.next = prevNode.next.next;
+      // prevNode의 next가 null이 아니라면,
+      prevNode.next = prevNode.next.next; // prevNode의 next에 prevNode의 next의 next를 할당한다.
     }
   }
 }
-
-// 와 뭔말인지 모르겠다~~~
