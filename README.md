@@ -23,7 +23,6 @@
 
 🗄 #연결리스트의순환여부확인
 
-
 #### 6월 8일 🤓
 
 스택: Last In First Out - like 프링글스
@@ -33,3 +32,10 @@
 - top: 최상단의 요소
 
 🗄 #올바른괄호여부확인
+
+#### 6월 9일 🤓
+
+큐: First In First Out - like 줄서기
+
+- Enqueue: 요소 추가
+- Dequeue: 요소 삭제
