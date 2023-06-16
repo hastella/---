@@ -84,3 +84,5 @@ Root -> Node -> Leaf Node
 - 각 정점이 자식에 대한 링크를 전부 가지고 있기 때문에 저장 공간을 많이 사용한다.
 
 ![image](https://github.com/hastella/Algorithms_DataStructure_Study/assets/66244752/0a0f1f40-1de6-4cf7-9aeb-ed7f779b32ee)
+
+🗄 #자동 완성
