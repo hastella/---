@@ -79,3 +79,14 @@ Root -> Node -> Leaf Node
 
 - 반드시 정렬이 되어있어야 사용가능
 - 배열 또는 이진 트리를 이용하여 구현가능
+
+🗄 #입국심사 실습
+
+### BFS, DFS
+
+Breadth-First Search (너비 우선탐색) & Depth-First Search (깊이 우선탐색)
+
+BFS는 같은 깊이에 해당하는 정점부터 탐색 -> Queue를 이용하여 구현 가능
+DFS는 최대한 깊은 정점부터 탐색 -> Stack을 이용하여 구현 가능
+
+🗄 #가장 먼 노드

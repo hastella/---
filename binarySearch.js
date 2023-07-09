@@ -15,9 +15,9 @@ function binarySearch(array, target) {
     }
     mid = Math.floor((left + right) / 2);
   }
-  return -1;
+  return -1; // not found
 }
 
 console.log(binarySearch(array, 2876)); // 7
 console.log(binarySearch(array, 1)); // 1
-console.log(binarySearch(array, 500)); // -1
+console.log(binarySearch(array, 500)); // -1  -> not found
